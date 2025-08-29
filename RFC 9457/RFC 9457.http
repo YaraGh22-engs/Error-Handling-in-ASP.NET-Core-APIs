@@ -1,0 +1,39 @@
+@RFC_9457_HostAddress = http://localhost:5190
+
+ 
+
+### Controller API
+
+
+### Root
+GET {{RFC_9457_HostAddress}}
+
+
+### Server Error
+GET {{RFC_9457_HostAddress}}/api/controller-fake-errors/server-error
+
+### Bad Request
+POST {{RFC_9457_HostAddress}}/api/controller-fake-errors/bad-request
+Content-Type: application/json
+
+
+### Bad Request 2
+POST {{RFC_9457_HostAddress}}/api/controller-fake-errors/bad-request-2
+Content-Type: application/json
+
+
+### Not Found
+POST {{RFC_9457_HostAddress}}/api/controller-fake-errors/not-found
+Content-Type: application/json
+
+### Unauthorized
+POST {{RFC_9457_HostAddress}}/api/controller-fake-errors/unauthorized
+Content-Type: application/json
+
+### Conflict
+POST {{RFC_9457_HostAddress}}/api/controller-fake-errors/conflict
+Content-Type: application/json
+
+### Business Rule Error
+POST {{RFC_9457_HostAddress}}/api/controller-fake-errors/business-rule-error
+Content-Type: application/json

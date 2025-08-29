@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36401.2 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default Behaviour of Errors", "Default Behaviour of Errors\Default Behaviour of Errors.csproj", "{C132A7BC-1DB8-459B-BB0F-D882BE02367B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer Exception Page", "Developer Exception Page\Developer Exception Page.csproj", "{1B8C04A8-801B-428F-B2F8-17506092519D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C132A7BC-1DB8-459B-BB0F-D882BE02367B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C132A7BC-1DB8-459B-BB0F-D882BE02367B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C132A7BC-1DB8-459B-BB0F-D882BE02367B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8C04A8-801B-428F-B2F8-17506092519D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8C04A8-801B-428F-B2F8-17506092519D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8C04A8-801B-428F-B2F8-17506092519D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8C04A8-801B-428F-B2F8-17506092519D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

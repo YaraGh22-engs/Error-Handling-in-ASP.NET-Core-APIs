@@ -1,0 +1,62 @@
+@GlobalErrorHandling_HostAddress = http://localhost:5021
+
+
+###
+### Controller API
+
+### Server Error
+GET {{GlobalErrorHandling_HostAddress}}/api/controller-fake-errors/server-error
+
+### Bad Request
+POST {{GlobalErrorHandling_HostAddress}}/api/controller-fake-errors/bad-request
+Content-Type: application/json
+
+### Bad Request
+POST {{GlobalErrorHandling_HostAddress}}/api/controller-fake-errors/bad-request-no-body
+Content-Type: application/json
+
+### Not Found
+POST {{GlobalErrorHandling_HostAddress}}/api/controller-fake-errors/not-found
+Content-Type: application/json
+
+### Unauthorized
+POST {{GlobalErrorHandling_HostAddress}}/api/controller-fake-errors/unauthorized
+Content-Type: application/json
+
+### Conflict
+POST {{GlobalErrorHandling_HostAddress}}/api/controller-fake-errors/conflict
+Content-Type: application/json
+
+### Business Rule Error
+POST {{GlobalErrorHandling_HostAddress}}/api/controller-fake-errors/business-rule-error
+Content-Type: application/json
+
+# Minimal API
+
+### Server Error
+GET {{GlobalErrorHandling_HostAddress}}/api/minimal-fake-errors/server-error
+Content-Type: application/json
+
+### Bad Request
+POST {{GlobalErrorHandling_HostAddress}}/api/minimal-fake-errors/bad-request
+Content-Type: application/json
+
+### Bad Request
+POST {{GlobalErrorHandling_HostAddress}}/api/minimal-fake-errors/bad-request-no-body
+Content-Type: application/json
+
+### Not Found
+POST {{GlobalErrorHandling_HostAddress}}/api/minimal-fake-errors/not-found
+Content-Type: application/json
+
+### Unauthorized
+POST {{GlobalErrorHandling_HostAddress}}/api/minimal-fake-errors/unauthorized
+Content-Type: application/json
+
+### Conflict
+POST {{GlobalErrorHandling_HostAddress}}/api/minimal-fake-errors/conflict
+Content-Type: application/json
+
+### Business Rule Error
+POST {{GlobalErrorHandling_HostAddress}}/api/minimal-fake-errors/business-rule-error
+Content-Type: application/json

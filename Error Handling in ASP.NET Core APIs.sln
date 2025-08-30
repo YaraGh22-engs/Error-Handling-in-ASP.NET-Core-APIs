@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer Exception Page", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFC 9457", "RFC 9457\RFC 9457.csproj", "{41AAF0F1-A703-4B96-B16E-9E8C6171119D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalErrorHandling", "GlobalErrorHandling\GlobalErrorHandling.csproj", "{899D311A-AD72-4CF2-AE80-681C543D8AE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{41AAF0F1-A703-4B96-B16E-9E8C6171119D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41AAF0F1-A703-4B96-B16E-9E8C6171119D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41AAF0F1-A703-4B96-B16E-9E8C6171119D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899D311A-AD72-4CF2-AE80-681C543D8AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899D311A-AD72-4CF2-AE80-681C543D8AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899D311A-AD72-4CF2-AE80-681C543D8AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899D311A-AD72-4CF2-AE80-681C543D8AE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
